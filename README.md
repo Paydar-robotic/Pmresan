@@ -20,7 +20,7 @@ sudo luarocks install serpent
 screen lua bot.lua
 
 </pre>
-<h1>چنل ما</h1>
+<h1>کانال ما</h1>
 <a href="https://telegram.me/Paydar_robotic"><h3>Paydar robotic team</h3></a>
 
 سوالی بود در خدمتم
