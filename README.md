@@ -1,10 +1,9 @@
-<a href="telegram.me/CleverGuy"><h1>CleverGuy</h1></a>
-<h2>payam resan umbrella team :D</h2><br><br><br>
+<a href="telegram.me/Paydar_robotic"><h1>Paydar robotic team</h1></a>
 <h1><mark>نصب ربات</mark></h1>
 <pre>
 توکن,ایدی,ایدی گروه در فایل کانفیگ وارد شود
 
-git clone https://github.com/TeleCleverGuy/PmResan.git
+git clone https://github.com/Paydar-robotic/Pmresa
 
 بسته های زیر نصب شوند
 
@@ -22,9 +21,7 @@ screen lua bot.lua
 
 </pre>
 <h1>چنل ما</h1>
-<a href="https://telegram.me/pluginlua"><h3>pluginlua</h3></a>
-<h1>خز کننده</h1>
-<a href="telegram.me/CleverGuy"><h3>CleverGuy</h3></a>
+<a href="https://telegram.me/Paydar_robotic"><h3>Paydar robotic team</h3></a>
 
 سوالی بود در خدمتم
 موفق باشید
