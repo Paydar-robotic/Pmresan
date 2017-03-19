@@ -488,7 +488,7 @@ function run(msg)
 end
 
 function inline(msg)
-	thumb = "http://umbrella.shayan-soft.ir/inline_icons/"
+	thumb = "http://Paydar-robotic/inline_icons/"
 	local f = io.open("./about.txt")
 	if f then
 		s = f:read('*all')
