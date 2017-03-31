@@ -1,4 +1,4 @@
-bot_token = "320296238:AAGqlBbEccMvcP53jM7hNB5JYVhJdpUekhE"
+bot_token = "269572464:AAEqVhcfBhAG4PqAc3VJWrhOgU5bkYneWP8"
 send_api = "https://api.telegram.org/bot"..bot_token
 bot_version = "1.0"
 sudo_name = "Omid Paydar"
@@ -6,4 +6,4 @@ sudo_id = 104657260
 admingp = -135847900
 sudo_num = "989304220242"
 sudo_user = "Omid_Paydar"
-sudo_ch = "Paydar_Robotic"
+sudo_ch = "PaydarTeam"
