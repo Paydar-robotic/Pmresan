@@ -497,8 +497,8 @@ function inline(msg)
 	else
 		infotxtin = ""
 	end
-	bioinfo = infotxtin.."*Name:* "..sudo_name.."\n*Username:* [@"..sudo_user.."](https://telegram.me/"..sudo_user..")\n*Mobile:* +"..sudo_num.."\n*Telegram ID:* "..sudo_id.."\n*Channel:* [@"..sudo_ch.."](https://telegram.me/"..sudo_ch..")\n\n_Powered by_ [Paydar robotic Team](https://telegram.me/Paydar_robotic)"
-	tabless = '[{"text":"اکانت اصلی من","url":"https://telegram.me/'..sudo_user..'"}],[{"text":"کانال شخصی من","url":"https://telegram.me/'..sudo_ch..'"}],[{"text":"کانال سازنده","url":"https://telegram.me/Paydar_robotic"},{"text":"سازنده ربات","url":"https://telegram.me/OMID_paydarbot"}]'
+	bioinfo = infotxtin.."*Name:* "..sudo_name.."\n*Username:* [@"..sudo_user.."](https://telegram.me/"..sudo_user..")\n*Mobile:* +"..sudo_num.."\n*Telegram ID:* "..sudo_id.."\n*Channel:* [@"..sudo_ch.."](https://telegram.me/"..sudo_ch..")\n\n_Powered by_ [PaydarTeam](https://telegram.me/PaydarTeam)"
+	tabless = '[{"text":"اکانت اصلی من","url":"https://telegram.me/'..sudo_user..'"}],[{"text":"کانال شخصی من","url":"https://telegram.me/'..sudo_ch..'"}],[{"text":"کانال سازنده","url":"https://telegram.me/PaydarTeam"},{"text":"سازنده ربات","url":"https://telegram.me/OMID_paydarbot"}]'
 	info_inline = '{"type":"article","parse_mode":"Markdown","id":"2","title":"بیوگرافی من","description":"هر آنچه درباره من باید بدانید...","message_text":"'..bioinfo..'","thumb_url":"'..thumb..'pv_bio.png","reply_markup":{"inline_keyboard":['..tabless..']}}'
 	phone_inline = '{"type":"contact","id":"1","phone_number":"'..sudo_num..'","first_name":"'..sudo_name..'","last_name":"","thumb_url":"'..thumb..'pv_phone.png"},'
 	return send_req(send_api.."/answerInlineQuery?inline_query_id="..msg.id.."&is_personal=true&cache_time=1&results="..url.escape('['..phone_inline..info_inline..']'))
